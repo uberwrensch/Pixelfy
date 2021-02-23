@@ -1,0 +1,26 @@
+{
+  "name": "Pixelfy",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wontkim/Pixelfy.git"
+  },
+  "keywords": [],
+  "author": "Teddy Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wontkim/Pixelfy/issues"
+  },
+  "homepage": "https://github.com/wontkim/Pixelfy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
