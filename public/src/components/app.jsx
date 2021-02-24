@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import Search from './search/search.jsx';
 
+export const SearchContext = createContext();
+
 function App() {
+    const [keyword, setKeyword] = useState('');
+
+    const changeKeyword = (word) => {
+        setKeyword(word);
+    };
+
     return (
         <div id='app-main-container'>
-            <Search />
+            <SearchContext.Provider value = {{ changeKeyword }}>
+                <Search />
+            </SearchContext.Provider>
         </div>
     );
 };
