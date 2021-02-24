@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchOptions() {
+export default function SearchOptions() {
     return (
         <div id='search-options-container'>
             <button id='search-only-container'>Search</button>
@@ -8,5 +8,3 @@ function SearchOptions() {
         </div>
     )
 };
-
-export default SearchOptions;
