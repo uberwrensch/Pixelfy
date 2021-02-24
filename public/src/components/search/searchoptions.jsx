@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { SearchContext } from '../app.jsx';
 
 export default function SearchOptions() {
+    const { changeSearch, changeSpicy } = useContext(SearchContext);
+
     return (
         <div id='search-options-container'>
-            <button id='search-only-container'>Search</button>
-            <button id='spicy-container'>Feeling Spicy!</button>
+            <button id='search-only-container' onClick={changeSearch}>Search</button>
+            <button id='spicy-container' onClick={changeSpicy}>Feeling Spicy!</button>
         </div>
-    )
+    );
 };
