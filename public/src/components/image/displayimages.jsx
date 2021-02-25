@@ -10,7 +10,7 @@ export default function DisplayImages() {
         <GridList cols={5} spacing={20} cellHeight={300} className='grid-list-container'>
         {images.map((image) => (
             <GridListTile key={image.id} className='grid-list-tile'>
-            <img src={image.urls.small} alt={image.alt_description} />
+            <img className='individual-image-container' src={image.urls.small} alt={image.alt_description} onClick={() => window.open(image.urls.full)} />
             <GridListTileBar
                 title={image.description || image.alt_description}
                 subtitle={<span>by: {image.user.name}</span>}

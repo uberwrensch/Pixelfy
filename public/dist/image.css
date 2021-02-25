@@ -9,3 +9,7 @@
 .grid-list-tile {
     height: 1rem;
 }
+
+.individual-image-container:hover {
+    cursor: pointer;
+}
