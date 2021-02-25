@@ -10,7 +10,7 @@ export default function DisplayImages() {
                 return (
                     <img src={image.urls.full} />
                 )
-            })};
+            })}
         </div>
     );
 };
