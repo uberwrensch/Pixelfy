@@ -1,0 +1,37 @@
+#search-container {
+    display: block;
+    width: 100%;
+}
+
+#pixelfy-icon {
+    display: block;
+    margin: auto;
+}
+
+#search-bar-container {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#search-options-container {
+    display: block;
+    text-align: center;
+}
+
+#search-bar-area {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 400px;
+    max-width: 500px;
+    height: 35px;
+    font-size: 16px;
+}
+
+#search-only-container, #spicy-container {
+    border: 1px solid #dfe1e5;
+    margin: .2%;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+}
