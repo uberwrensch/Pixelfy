@@ -27,16 +27,20 @@
     max-width: 500px;
     height: 35px;
     font-size: 18px;
+    margin-top: 10px;
     padding-left: 10px;
     outline-width: 0;
 }
 
 #search-only-container, #spicy-container {
     border: 1px solid #dfe1e5;
+    border-radius: 24px;
     margin: .2%;
     width: 150px;
     height: 30px;
     font-size: 16px;
+    background-color: white;
+    outline-width: 0;
 }
 
 input:-webkit-autofill,
