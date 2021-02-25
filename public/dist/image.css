@@ -1,0 +1,11 @@
+.displayed-images-container {
+    display: flex;
+    flex-wrap: 'wrap';
+    justify-content: 'ceneter';
+    align-items: center;
+    margin: 1%;
+}
+
+.grid-list-tile {
+    height: 1rem;
+}
