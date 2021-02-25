@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 import Search from './search/search.jsx';
-import Image from './results/image.jsx';
+import Image from './image/image.jsx';
 
 export const SearchContext = createContext();
 
@@ -23,7 +23,7 @@ function App() {
 
     return (
         <div id='app-main-container'>
-            <SearchContext.Provider value={{ changeKeyword, changeSearch, changeSpicy, keyword, search }}>
+            <SearchContext.Provider value={{ changeKeyword, changeSearch, changeSpicy, keyword, search, spicy }}>
                 <Search />
                 <Image />
             </SearchContext.Provider>

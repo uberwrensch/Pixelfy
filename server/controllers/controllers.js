@@ -23,5 +23,25 @@ module.exports = {
                     res.status(500).send(err);
                 });
         }
+    },
+    randomImages: {
+        get: (req, res) => {
+            const options = {
+                url: 'https://api.unsplash.com/photos/random?count=20',
+                method: 'GET',
+                headers: {
+                    'Authorization': `Client-ID ${key}`
+                }
+            };
+
+            axios(options)
+                .then(images => {
+                    res.status(200).send(images.data);
+                })
+                .catch(err => {
+                    console.log(`API call for random images failed due to ${err}`);
+                    res.status(500).send(err);
+                });
+        }
     }
 };

@@ -1,6 +1,8 @@
 const router = require('express').Router();
-const controller = require('../controllers/controllers.js');
+const { images, randomImages } = require('../controllers/controllers.js');
 
-router.get('/images/:query', controller.images.get);
+router.get('/images/:query', images.get);
+
+router.get('/random-images', randomImages.get);
 
 module.exports = router;
