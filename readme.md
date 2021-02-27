@@ -4,14 +4,14 @@
 
 Table of Contents
 -----------------
-- [Description](##Description)
-- [Getting Started](##Getting-Started)
-  * [Dependencies](###Dependencies)
-  * [Set up](###Set-up)
-  * [API key](###API-key)
-- [Routes](##routes)
-- [Application Demo](##Application-Demo)
-- [Project Version](##Project-Version)
+- [Description](#Description)
+- [Getting Started](#Getting-Started)
+  * [Dependencies](#Dependencies)
+  * [Set up](#Set-up)
+  * [API key](#API-key)
+- [Routes](#routes)
+- [Application Demo](#Application-Demo)
+- [Project Version](#Project-Version)
 
 Description
 -----------
