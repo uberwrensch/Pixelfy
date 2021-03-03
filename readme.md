@@ -15,11 +15,11 @@ Table of Contents
 
 Description
 -----------
-Search for those pictures that illicit happines and pixelfy your life! A search engine optimized to get the most artistic, and high quality pictures.
+Search for those pictures that elicit happiness and Pixelfy your life! Pixelfy, a search engine optimized to get the most artistic, high quality pictures.
 
 Getting Started
 ---------------
-The following section is the neccesary dependencies and instructions to get the project deployed locally.
+Instructions to get the project deployed locally.
 
 ### Dependencies
 - Node.js v14.15.5
@@ -27,7 +27,7 @@ The following section is the neccesary dependencies and instructions to get the 
 ### Set up
 1. Run `npm install` to install the neccesary dependencies.
 2. Run `npm run dev-react` to compile all public files into a bundle.
-3. Run `npm run dev-server` to serve up the files at `port 3000
+3. Run `npm run dev-server` to serve up the files on port 3000
 
 ### API key
 1. Go to https://unsplash.com/developers and register as a developer.
